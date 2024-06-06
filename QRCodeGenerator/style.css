@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+#qr-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#generate {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate:hover {
+    background-color: #3e8e41;
+}
+
+#error-message {
+    color: #red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#qr-code-container {
+    margin-top: 40px;
+}
+
+
+
+#qr-code {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
